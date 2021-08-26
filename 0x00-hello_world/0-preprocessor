@@ -1,0 +1,3 @@
+#!/bin/bahs
+printf("Hello, my beloved C!"); gcc -E #CFILE > c
+export CFILE=c.c; 
