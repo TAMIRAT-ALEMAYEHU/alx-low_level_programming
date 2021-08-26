@@ -1,2 +1,2 @@
 #!/bin/bash
-printf("Hello \n"); gcc -E CFILE -0 c | export $CFILE=main.o
+printf("Hello \n"); export $CFILE=main.o

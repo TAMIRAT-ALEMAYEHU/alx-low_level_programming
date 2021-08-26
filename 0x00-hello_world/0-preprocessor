@@ -1,2 +1,2 @@
 #!/bin/bash
-printf("Hello, my beloved C!\n");  export CFILE=0-main.c 
+printf("Hello, my beloved C!\n");  gcc -E $CFILE -o c
