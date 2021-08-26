@@ -1,3 +1,2 @@
-#!/bin/bahs
-printf("Hello, my beloved C!"); gcc -E #CFILE > c
-export CFILE=c.c; 
+#!/bin/bash
+printf("Hello, my beloved C!\n");  gcc -E $CFILE -o c  
