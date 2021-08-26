@@ -1,8 +1,0 @@
-#!/bin/bash
-#include<studio.h>
-
-int main ()
-{
-	printf("Hello This is TAMIRAT - ALEMAYEHU from alx school");
-	return 0;
-}
