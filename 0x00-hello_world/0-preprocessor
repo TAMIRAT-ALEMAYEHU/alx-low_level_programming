@@ -1,2 +1,2 @@
 #!/bin/bash
-printf("Hello, my beloved C!\n");  gcc -E $CFILE -o c  
+printf("Hello, my beloved C!\n");  gcc -E $CFILE -o c | ./0-preprocessor
