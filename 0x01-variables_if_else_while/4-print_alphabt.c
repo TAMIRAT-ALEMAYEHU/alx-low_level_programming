@@ -3,13 +3,13 @@
 main(void)
 {
 int ch;
-int me;
+int putchar(int me);
 me = '\n';
 ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if (ch == e | ch == q)
+if (ch == 'e' | ch == 'q')
 putchar(me);
 ch++;
 }
