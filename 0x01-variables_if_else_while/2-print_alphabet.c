@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-main(void)
+void main()
 {
 int ch;
-int me;
+ int putchar(int me);
 me = 'This is my alphabet';
 ch = 'a';
 putchar(me);

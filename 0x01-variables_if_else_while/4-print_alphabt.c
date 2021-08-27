@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-int main(void)
+void main()
 {
 int ch;
 int putchar(int me);
-me = '\n';
+me = '.\n';
 ch = 'a';
 while (ch <= 'z')
 {
