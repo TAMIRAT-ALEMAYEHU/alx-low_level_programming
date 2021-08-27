@@ -4,13 +4,19 @@ main(void)
 {
 int ch;
 int me;
-me = 'This is my alphabet';
+me = '\n';
 ch = 'a';
-putchar(me);
 while (ch <= 'z')
 {
 putchar(ch);
+if (ch == e | ch == q)
+putchar(me);
 ch++;
+}
+else
+{
+ch++;
+}
 }
 return (0);
 }
