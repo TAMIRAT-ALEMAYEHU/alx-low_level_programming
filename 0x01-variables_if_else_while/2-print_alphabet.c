@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-void main()
+int main(void)
 {
 int ch;
- int putchar(int me);
-me = 'This is my alphabet';
+int putchar(int me[]);
+me[] = 'This is my alphabet';
 ch = 'a';
 putchar(me);
 while (ch <= 'z')
