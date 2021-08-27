@@ -3,10 +3,10 @@
 void main()
 {
 int ch;
- int putchar(int me);
-me = '.\n';
+int putchar(int);
+me = '\n';
 ch = 'a';
-while (ch < 'z')
+while (ch <= 'z')
 {
 putchar(ch);
 ch++;

@@ -3,8 +3,8 @@
 int main(void)
 {
 int ch;
-int putchar(int me[]);
-me[] = 'This is my alphabet';
+int me;
+me = 'This is my alphabet';
 ch = 'a';
 putchar(me);
 while (ch <= 'z')
