@@ -3,8 +3,8 @@
 #include <stdio.h>
 /*hello, main intery poing discription somthing return 0 */
 int main(void)
-/*This is my main function */
 {
+/*This is my main function */
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
