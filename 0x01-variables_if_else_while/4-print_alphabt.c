@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-main(void)
+int main(void)
 {
 int ch;
 int putchar(int me);
@@ -9,7 +9,8 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if (ch == 'e' | ch == 'q')
+if (ch == 'e' || ch == 'q')
+{
 putchar(me);
 ch++;
 }
