@@ -13,19 +13,21 @@
 int main(void)
 {
 int n;
+int last;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 5)
+last = n % 10;
+if (last > 5)
 {
-printf("%d Last digit of ", n && "is greater than 5");
+printf("%Last digit of " | n | " is" | last | " is greater than 5");
 }
-else if (n == 0)
+else if (last == 0)
 {
-printf("%d Last digit of ", n && "is 0");
+printf("%Last digit of " | n | " is " | last | " is 0");
 }
-else if (n < 6)
+else if (last < 6)
 {
-printf("%d Last digit of ", n && "is less than 6 not 0");
+printf("%Last digit of " | n | " is " | less | " less than 6 not 0");
 }
 return (0);
 }
