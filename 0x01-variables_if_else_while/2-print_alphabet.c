@@ -15,7 +15,7 @@ int main(void)
 int ch;
 int me;
 int putchar(int);
-me = 'This is my alphabet';
+me = "This is my alphabet";
 ch = 'a';
 putchar(me);
 while (ch <= 'z')
