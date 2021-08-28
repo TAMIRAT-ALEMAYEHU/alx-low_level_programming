@@ -25,6 +25,7 @@ putchar(ch);
 ch++;
 }
 putchar('\n');
+brack;
 }
 else
 {
