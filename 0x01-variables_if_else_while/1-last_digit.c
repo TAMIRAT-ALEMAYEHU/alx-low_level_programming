@@ -1,8 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes here */
-main(void)
+#include <stdio.h>
+
+/**
+ * main - Starting poing
+ *
+ * Return:0
+ *
+ * Descriptions: to check a number is greater than 5 or less than 6
+ */
+
+int main(void)
 {
 int n;
 srand(time(0));
