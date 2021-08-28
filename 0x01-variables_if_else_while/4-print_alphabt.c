@@ -20,12 +20,12 @@ while (ch <= 'z')
 putchar(ch);
 if (ch == 'e' || ch == 'q')
 {
-putchar('\n');
 ch++;
 }
 else
 {
 ch++;
+putchar(ch);
 }
 }
 return (0);

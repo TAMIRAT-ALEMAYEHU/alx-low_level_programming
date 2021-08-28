@@ -19,12 +19,12 @@ putchar(ch);
 ch++;
 if (ch == 'z')
 {
-putchar('\n');
 ch = 'A';
 while (ch < 'Z')
 {
 putchar(ch);
 ch++;
+putchar(ch);
 }
 }
 }
