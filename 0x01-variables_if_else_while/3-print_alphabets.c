@@ -21,7 +21,7 @@ ch++;
 if (ch == 'z')
 {
 putchar('\n');
-ch = 'A'
+ch = 'A';
 while (ch < 'Z')
 {
 putchar(ch);
