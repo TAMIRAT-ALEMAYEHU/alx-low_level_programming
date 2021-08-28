@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - the function try to identify the last
  *         digit of the number weather it is
@@ -10,7 +9,6 @@
  * Return:0
  *
  */
-
 int main(void)
 {
 int n;
