@@ -2,9 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*is_positive-check-if-a-numbre-is-greater-than-0 
-*@n-number-will-be-checked 
-*Return:-1-if-the-number-is-postitve,or-0 
+* main - this is discription 
+* 
+* is_positive - check if a number is greater than 0
+* @n: The number will be checked 
+* 
+* Return: 1 if the number is postitve, or zero
 */
 int main(void)
 {
@@ -14,15 +17,15 @@ n = rand() - RAND_MAX / 2;
 /* This is my if and else if code*/
 if (n > 0)
 {
-printf("%dis positive\n", n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("%dis zero\n", n);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("%dis negative\n", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
