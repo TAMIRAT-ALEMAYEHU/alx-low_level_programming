@@ -12,10 +12,13 @@ int main(void)
 {
 int ch;
 ch = 'a';
-putchar('This is my alphabete');
 while (ch <= 'z')
 {
 putchar(ch);
+if(ch == 0)
+{
+putchar(ch);
+}
 ch++;
 }
 return (0);
