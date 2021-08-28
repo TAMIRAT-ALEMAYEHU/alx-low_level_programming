@@ -15,9 +15,9 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if(ch == 0)
+if (ch == 'z')
 {
-putchar(ch);
+putchar(' ');
 }
 ch++;
 }
