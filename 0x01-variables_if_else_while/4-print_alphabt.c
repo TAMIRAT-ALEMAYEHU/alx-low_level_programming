@@ -18,7 +18,7 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if ((ch == 'e') || (ch == 'q'))
+if ((ch == 'd') || (ch == 'p'))
 {
 ch++;
 }
