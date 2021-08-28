@@ -11,10 +11,9 @@
 int main(void)
 {
 int ch;
-int me[20] = "This is my alphabet";
-int putchar(int me);
+int putchar(int);
 ch = 'a';
-putchar(me);
+putchar(ch);
 while (ch <= 'z')
 {
 putchar(ch);
