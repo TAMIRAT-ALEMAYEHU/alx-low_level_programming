@@ -17,7 +17,7 @@ while (ch <= 'z')
 putchar(ch);
 if (ch == 'z')
 {
-putchar(' ');
+putchar('\n');
 }
 ch++;
 }
