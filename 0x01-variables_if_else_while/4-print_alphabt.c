@@ -22,6 +22,7 @@ if ((ch == 'e') || (ch == 'q'))
 {
 ch++;
 }
+ch++;
 }
 putchar('\n');
 return (0);
