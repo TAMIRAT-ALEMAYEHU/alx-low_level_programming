@@ -16,7 +16,7 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if (ch != 'z')
+if (ch <= 'z')
 {
 ch++;
 }
