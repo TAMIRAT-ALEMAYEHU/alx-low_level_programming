@@ -12,7 +12,7 @@ int main(void)
 {
 int ch;
 int me[20] = "This is my alphabet";
-int putchar(int);
+int putchar(int me);
 ch = 'a';
 putchar(me);
 while (ch <= 'z')
