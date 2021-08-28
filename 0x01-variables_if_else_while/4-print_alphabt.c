@@ -18,15 +18,11 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if (ch == 'e' || ch == 'q')
+if ((ch == 'e') || (ch == 'q'))
 {
 ch++;
 }
-else
-{
-ch++;
-putchar(ch);
 }
-}
+putchar('\n');
 return (0);
 }

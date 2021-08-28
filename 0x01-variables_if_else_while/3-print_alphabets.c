@@ -16,15 +16,18 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
+if (ch != 'z')
+{
 ch++;
-if (ch == 'z')
+}
+else
 {
 ch = 'A';
 while (ch < 'Z')
 {
 putchar(ch);
 ch++;
-putchar(ch);
+putchar('\n');
 }
 }
 }
