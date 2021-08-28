@@ -16,19 +16,19 @@ ch = 'a';
 while (ch <= 'z')
 {
 putchar(ch);
-if (ch <= 'z')
-{
-ch++;
-}
-else
+if (ch == 'z')
 {
 ch = 'A';
-while (ch < 'Z')
+while (ch <= 'Z')
 {
 putchar(ch);
 ch++;
 putchar('\n');
 }
+}
+else
+{
+ch++;
 }
 }
 return (0);
