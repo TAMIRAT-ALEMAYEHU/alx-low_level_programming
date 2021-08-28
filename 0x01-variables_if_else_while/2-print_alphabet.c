@@ -12,7 +12,6 @@ int main(void)
 {
 int ch;
 ch = 'a';
-int putchar(int);
 putchar('This is my alphabete');
 while (ch <= 'z')
 {
