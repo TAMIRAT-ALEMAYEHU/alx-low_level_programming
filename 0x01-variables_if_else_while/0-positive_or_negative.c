@@ -1,20 +1,20 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
+
 /**
-* main - this is discription 
-* 
-* is_positive - check if a number is greater than 0
-* @n: The number will be checked 
-* 
-* Return: 1 if the number is postitve, or zero
+*main - starting poing
+*Return: 0
+*Descriptions: to check a number is positive or negative
 */
+
 int main(void)
 {
 int n;
+
 srand(time(0));
+
 n = rand() - RAND_MAX / 2;
-/* This is my if and else if code*/
 if (n > 0)
 {
 printf("%d is positive\n", n);
