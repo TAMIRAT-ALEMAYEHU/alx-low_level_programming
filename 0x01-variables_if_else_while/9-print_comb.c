@@ -19,8 +19,8 @@ putchar(num);
 else if (num < 58)
 {
 putchar(',');
-putchar(num);
 putchar(' ');
+putchar(num);
 }
 }
 return (0);
