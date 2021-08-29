@@ -9,10 +9,19 @@
  */
 int main(void)
 {
-int num;
-for (num = 0; num < 10; num++)
+int num = 0;
+for (num = 48; num < 58; num++)
+{
+if (num == 0)
 {
 putchar(num);
+}
+else if (num < 58)
+{
+putchar(',', num);
+putchar(' ');
+}
+putchar('\n');
 }
 return (0);
 }
