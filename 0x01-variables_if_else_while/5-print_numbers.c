@@ -14,15 +14,12 @@ int main(void)
 {
 int expo = 0;
 int val = 0;
-if (val > 10)
-print("\n");
-else
+int puchar(int);
+while (val < 10)
 {
-while (expo != 0)
-{
-val += expo;
-printf("Base 10 single digits : %d", val);
+putchar(expo);
 expo++;
+val = expo + val;
 }
 return (0);
 }
