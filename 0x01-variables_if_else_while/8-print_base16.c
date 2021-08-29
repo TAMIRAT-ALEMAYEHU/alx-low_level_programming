@@ -23,20 +23,3 @@ putchar(ch);
 putchar('\n');
 return (0);
 }
-  /*int expo = 0;
-int val = 0;
-while (val < 10)
-{
-putchar(val);
-val++;
-}
-expo = 'a';
-while (expo <= 'f')
-{
-putchar(expo);
-expo++;
-}
-putchar('\n');
-return (0);
-}
-  */
