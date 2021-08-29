@@ -10,7 +10,8 @@
 int main(void)
 {
 int num;
-int coma = ", ";
+int coma = ',';
+int sp = ' ';
 for (num = 48; num < 58; num++)
 {
 if (num == 48)
@@ -19,11 +20,11 @@ putchar(num);
 }
 else if (num < 58)
 {
-putchar(coma);
+putchar(coma&sp);
 putchar(num);
 }
 }
-putchar(' ');
+putchar(sp);
 return (0);
 }
 
