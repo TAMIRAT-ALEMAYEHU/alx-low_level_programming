@@ -9,18 +9,18 @@
  */
 int main(void)
 {
-int num = 0;
+int num;
 for (num = 48; num < 58; num++)
 {
-if (num == 0)
+if (num == 48)
 {
 putchar(num);
 }
 else if (num < 58)
 {
 putchar(',');
-putchar(num);
 putchar(' ');
+putchar(num);
 }
 }
 return (0);
