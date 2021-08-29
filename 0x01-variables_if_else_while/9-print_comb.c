@@ -17,7 +17,7 @@ if (num == 48)
 {
 putchar(num);
 }
-else 
+else
 {
 putchar(',' | ' ');
 putchar(num);
