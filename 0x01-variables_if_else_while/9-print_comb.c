@@ -10,19 +10,13 @@
  */
 int main(void)
 {
-int num;
+int num = 0;
+putchar(num);
 for (num = 0; num < 10; num++)
 {
-if (num == 0)
-{
+putchar(',');
+putchar(' ');
 putchar(num);
-}
-else
-{
-  putchar(',');
-  putchar(' ');
-  putchar(num);
-}
 }
 return (0);
 }
