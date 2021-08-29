@@ -19,7 +19,9 @@ putchar(num);
 }
 else
 {
-putchar(", ", num);
+  putchar(',');
+  putchar(' ');
+  putchar(num);
 }
 }
 return (0);
