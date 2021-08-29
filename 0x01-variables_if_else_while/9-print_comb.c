@@ -17,7 +17,8 @@ putchar(num);
 if (num > 0)
 {
 putchar(',');
-putchar(' ', num);
+putchar(' ');
+putchar(num);
 }
 putchar(' ');
 return (0);
