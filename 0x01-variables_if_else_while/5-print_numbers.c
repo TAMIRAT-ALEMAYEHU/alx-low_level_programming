@@ -14,7 +14,7 @@ int main(void)
 {
 int expo = 0;
 int val = 0;
-int puchar(int);
+int putchar(int);
 while (val < 10)
 {
 putchar(expo);
