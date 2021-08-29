@@ -14,14 +14,17 @@ int main(void)
 {
 int base = 10;
 int expo = 0;
-int val = 1;
+int val = 0;
+if (val > 10)
+print("\n");
+else
+{
 while (expo != 0)
 {
-val *= base;
+val += expo;
 printf("Base 10 single digits : %d", val);
 expo++;
-if (val > 9)
-return (0);
 }
 return (0);
+}
 }
