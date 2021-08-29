@@ -12,10 +12,9 @@ int main(void)
 {
 int expo = 0;
 int val = 0;
-while (expo < 10)
+while (val < 10)
 {
-int putchar(expo);
-expo++;
+putchar(expo);
 val++;
 }
 expo = 'a';
