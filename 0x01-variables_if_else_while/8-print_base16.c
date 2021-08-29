@@ -10,14 +10,19 @@
  */
 int main(void)
 {
-int putchar(int expo);
 int expo = 0;
 int val = 0;
-while (val < 16)
+while (val < 10)
 {
-putchar(expo);
+int putchar(int expo);
 expo++;
 val++;
+}
+int expoo = 'a';
+while (expoo <= f)
+{
+putchar(expoo);
+expoo++;
 }
 putchar('\n');
 return (0);
