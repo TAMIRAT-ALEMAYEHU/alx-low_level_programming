@@ -10,7 +10,9 @@
  */
 int main(void)
 {
-int expo = 0;
+int putchar(int expo);
+int putchar(int val);
+expo = 0;
 int val = 0;
 while (val < 16)
 {
