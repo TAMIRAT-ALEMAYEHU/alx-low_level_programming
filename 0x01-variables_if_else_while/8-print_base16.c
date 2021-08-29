@@ -12,7 +12,7 @@ int main(void)
 {
 int expo = 0;
 int val = 0;
-while (val < 10)
+while (expo < 10)
 {
 int putchar(int expo);
 expo++;
