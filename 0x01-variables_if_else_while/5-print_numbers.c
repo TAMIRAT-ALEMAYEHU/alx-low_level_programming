@@ -20,5 +20,6 @@ printf("%d", expo);
 expo++;
 val++;
 }
+printf("%d \n");
 return (0);
 }
