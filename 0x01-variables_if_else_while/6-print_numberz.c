@@ -9,7 +9,6 @@
  *
  * Description - displays base 10 single digit numbers only
  */
-
 int main(void)
 {
 int expo = 0;
