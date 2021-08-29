@@ -14,10 +14,9 @@ int main(void)
 {
 int expo = 0;
 int val = 0;
-int putchar(int);
 while (val < 10)
 {
-putchar(expo);
+printf(expo);
 expo++;
 val = expo + val;
 }
