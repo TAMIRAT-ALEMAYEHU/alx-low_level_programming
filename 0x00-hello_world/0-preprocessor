@@ -1,2 +1,2 @@
 #!/bin/bash
-printf("Hello, my beloved C!\n");  gcc -E $CFILE -o c
+gcc -E $CFILE -o c
