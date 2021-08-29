@@ -18,7 +18,7 @@ long double val = 1.0;
 while (expo != 0)
 {
 val *= base;
-printf(val);
+printf("Base 10 single digits : ",val);
 expo++;
 if (val > 9)
 return (0);
