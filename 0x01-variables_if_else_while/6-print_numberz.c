@@ -10,14 +10,12 @@
  */
 int main(void)
 {
-int putchar(int);
+int putchar(int expo);
 int expo = 0;
-int val = 0;
-while (val < 10)
+while (expo < 10)
 {
 putchar(expo);
 expo++;
-val++;
 }
 putchar('\n');
 return (0);
