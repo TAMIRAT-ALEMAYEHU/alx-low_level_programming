@@ -12,7 +12,7 @@
 int main(void)
 {
 int expo = 0;
-for(expo = 48; expo < 58; expo++)
+for (expo = 48; expo < 58; expo++)
 {
 putchar(expo);
 }
