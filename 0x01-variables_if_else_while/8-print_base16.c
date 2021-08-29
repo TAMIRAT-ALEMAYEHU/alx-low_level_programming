@@ -18,11 +18,11 @@ int putchar(int expo);
 expo++;
 val++;
 }
-char expoo = 'a';
-while (expoo <= 'f')
+expo = 'a';
+while (expo <= 'f')
 {
-putchar(expoo);
-expoo++;
+putchar(expo);
+expo++;
 }
 putchar('\n');
 return (0);
