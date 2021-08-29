@@ -18,11 +18,11 @@ putchar(num);
 }
 else if (num < 58)
 {
-putchar(',');
-putchar(' ');
+putchar(',', ' ');
 putchar(num);
 }
 }
+putchar(' ');
 return (0);
 }
 
