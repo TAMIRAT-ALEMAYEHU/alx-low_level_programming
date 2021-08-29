@@ -13,7 +13,7 @@ int main(void)
 long expo = 0;
 while (expo < 10)
 {
-putchar(expo);
+int putchar(expo);
 expo++;
 }
 putchar('\n');
