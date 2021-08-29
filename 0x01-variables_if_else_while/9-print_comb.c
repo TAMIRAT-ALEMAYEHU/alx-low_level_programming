@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - function all pro
  * Return: 0
@@ -20,7 +21,7 @@ putchar(num);
 }
 else if (num < 58)
 {
-putchar(coma + sp);
+putchar(coma, sp);
 putchar(num);
 }
 }
