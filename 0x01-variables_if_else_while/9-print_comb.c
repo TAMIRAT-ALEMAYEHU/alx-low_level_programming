@@ -19,7 +19,7 @@ putchar(num);
 }
 else
 {
-putchar(', ', num);
+putchar(", ", num);
 }
 }
 return (0);
