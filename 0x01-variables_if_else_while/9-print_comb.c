@@ -13,9 +13,7 @@ int num = 0;
 putchar(num);
 for (num = 1; num < 10; num++)
 {
-putchar(',');
-putchar(' ');
-putchar(num);
+putchar(',' , ' ', num);
 }
 return (0);
 }
