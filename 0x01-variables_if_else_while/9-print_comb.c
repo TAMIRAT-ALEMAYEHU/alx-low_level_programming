@@ -13,17 +13,17 @@ int main(void)
 int num;
 for (num = 48; num < 58; num++)
 {
- if (num == 48)
+if (num == 48)
 {
 putchar(num);
 }
 else 
 {
-putchar(',');
-putchar(' ');
+putchar(',' | ' ');
 putchar(num);
 }
 }
+putchar(' ');
 return (0);
 }
 
