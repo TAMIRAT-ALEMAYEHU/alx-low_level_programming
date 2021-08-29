@@ -11,7 +11,6 @@
 int main(void)
 {
 int putchar(int expo);
-int putchar(int val);
 int expo = 0;
 int val = 0;
 while (val < 16)
