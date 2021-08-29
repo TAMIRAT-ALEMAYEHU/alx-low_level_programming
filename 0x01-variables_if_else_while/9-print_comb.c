@@ -20,10 +20,10 @@ putchar(num);
 else
 {
 putchar(',');
+putchar(' ');
 putchar(num);
 }
 }
-putchar('\n');
 return (0);
 }
 
