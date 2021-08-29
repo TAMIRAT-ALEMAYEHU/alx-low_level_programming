@@ -13,7 +13,9 @@ int num = 0;
 putchar(num);
 for (num = 1; num < 10; num++)
 {
-  putchar(',' && ' ' && num);
+putchar(',');
+putchar(' ');
+putchar(num);
 }
 return (0);
 }
