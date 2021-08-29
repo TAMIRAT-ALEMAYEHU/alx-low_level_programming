@@ -10,7 +10,20 @@
  */
 int main(void)
 {
-int expo = 0;
+int n;
+char ch;
+for (n = 48; n < 58; n++)
+{
+putchar(n);
+}
+for (ch - 'a'; ch <= 'f'; ch++)
+{
+putchar(ch);
+}
+putchar('\n');
+return (0);
+}
+  /*int expo = 0;
 int val = 0;
 while (val < 10)
 {
@@ -26,3 +39,4 @@ expo++;
 putchar('\n');
 return (0);
 }
+  */
