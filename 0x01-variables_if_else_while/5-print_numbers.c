@@ -12,7 +12,6 @@
 
 int main(void)
 {
-int base = 10;
 int expo = 0;
 int val = 0;
 if (val > 10)
