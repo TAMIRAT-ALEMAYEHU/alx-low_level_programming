@@ -13,8 +13,11 @@ int main(void)
 int num;
 for (num = 48; num < 58; num++)
 {
+ if (num == 48)
+{
 putchar(num);
-if (num > 48)
+}
+else 
 {
 putchar(',');
 putchar(' ');
