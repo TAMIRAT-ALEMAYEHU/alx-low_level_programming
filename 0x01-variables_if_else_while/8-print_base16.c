@@ -14,7 +14,7 @@ int expo = 0;
 int val = 0;
 while (val < 10)
 {
-putchar(expo);
+putchar(val);
 val++;
 }
 expo = 'a';
