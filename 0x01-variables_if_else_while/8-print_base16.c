@@ -16,10 +16,10 @@ expo = 0;
 val = 0;
 while (val < 16)
 {
-int putchar(expo);
+putchar(expo);
 expo++;
 val++;
 }
-int putchar('\n');
+putchar('\n');
 return (0);
 }
