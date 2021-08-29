@@ -13,13 +13,13 @@ int main(void)
 int putchar(int expo);
 int putchar(int val);
 expo = 0;
-int val = 0;
+val = 0;
 while (val < 16)
 {
 int putchar(expo);
 expo++;
 val++;
 }
-int putchar("\n");
+int putchar('\n');
 return (0);
 }
