@@ -16,9 +16,9 @@ int expo = 0;
 int val = 0;
 while (val < 10)
 {
-printf(expo);
+printf("%d", expo);
 expo++;
-val = expo + val;
+val++;
 }
 return (0);
 }
