@@ -14,7 +14,7 @@ int main(void)
 int expo = 0;
 while (expo < 10)
 {
-putchar('expo');
+putchar(expo);
 expo++;
 }
 putchar('\n');
