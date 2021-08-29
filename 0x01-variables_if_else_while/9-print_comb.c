@@ -20,7 +20,7 @@ putchar(num);
 }
 else if (num < 58)
 {
-putchar(coma&sp);
+putchar(coma & sp);
 putchar(num);
 }
 }
