@@ -19,11 +19,11 @@ putchar(num);
 }
 else
 {
-putchar(", %s ");
+putchar(',');
 putchar(num);
 }
 }
-putchar(' ');
+putchar('\n');
 return (0);
 }
 
