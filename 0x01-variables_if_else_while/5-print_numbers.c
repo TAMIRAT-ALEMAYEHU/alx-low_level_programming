@@ -14,7 +14,7 @@ int main(void)
 {
 int base = 10;
 int expo = 0;
-long double val = 1.0;
+int val = 1;
 while (expo != 0)
 {
 val *= base;
