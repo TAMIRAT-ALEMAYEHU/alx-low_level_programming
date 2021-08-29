@@ -10,7 +10,6 @@
  */
 int main(void)
 {
-int putchar(int expo);
 int expo = 0;
 while (expo < 10)
 {
