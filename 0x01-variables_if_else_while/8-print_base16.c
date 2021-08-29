@@ -18,8 +18,8 @@ int putchar(int expo);
 expo++;
 val++;
 }
-int expoo = 'a';
-while (expoo <= f)
+char expoo = 'a';
+while (expoo <= 'f')
 {
 putchar(expoo);
 expoo++;
