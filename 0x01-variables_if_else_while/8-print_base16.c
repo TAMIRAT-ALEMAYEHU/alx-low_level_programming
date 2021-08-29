@@ -14,10 +14,10 @@ int expo = 0;
 int val = 0;
 while (val < 16)
 {
-putchar("%d", expo);
+int putchar(expo);
 expo++;
 val++;
 }
-putchar("\n");
+int putchar("\n");
 return (0);
 }
