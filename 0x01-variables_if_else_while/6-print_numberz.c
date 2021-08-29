@@ -12,10 +12,9 @@
 int main(void)
 {
 int expo = 0;
-while (expo < 10)
+for(expo = 48; expo < 58; expo++)
 {
 putchar(expo);
-expo++;
 }
 putchar('\n');
 return (0);
