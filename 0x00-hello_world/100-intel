@@ -1,2 +1,2 @@
 #!/bin/bash 
-g++ -S -masm=intel $CFILE.cpp
+g++ -S -masm=intel $CFILE
