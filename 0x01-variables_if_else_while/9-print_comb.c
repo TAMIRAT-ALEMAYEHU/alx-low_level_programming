@@ -13,17 +13,13 @@ int main(void)
 int num;
 for (num = 48; num < 58; num++)
 {
-if (num == 48)
-{
-putchar(num);
-}
-else
-{
+putchar((num % 10) + '0');
+if (num == 58)
+continue;
 putchar(',');
 putchar(' ');
-putchar(num);
 }
-}
+putchar('\n');
 return (0);
 }
 
