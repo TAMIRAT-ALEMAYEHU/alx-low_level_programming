@@ -4,7 +4,7 @@
  * main - function displays alphabet in lowercase
  * Return: 0
  */
-void int main(void)
+int main(void)
 {
 void print_alphabet(void)
 {
