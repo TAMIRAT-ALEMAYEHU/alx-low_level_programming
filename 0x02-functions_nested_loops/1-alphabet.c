@@ -10,6 +10,6 @@ for (letr = 'a'; letr <= 'z'; letr++)
 {
 _putchar(letr);
 }
- _putchar('\n');
+_putchar('\n');
 }
 
