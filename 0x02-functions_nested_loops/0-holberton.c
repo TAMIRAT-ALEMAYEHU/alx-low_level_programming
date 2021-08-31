@@ -1,8 +1,7 @@
-#include "holberton.h"
+#include "mainn.h"
 
 /**
- * main - function to display Holberton 
- * @c: The character to print
+ * main - function to display Holberton
  *
  * Return: 0
  */
