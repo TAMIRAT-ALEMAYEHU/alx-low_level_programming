@@ -4,8 +4,7 @@
  * main - function displays alphabet in lowercase
  * Return: 0
  */
-int main(void)
-{
+
 void print_alphabet(void)
 {
 char letr;
@@ -15,4 +14,4 @@ _putchar(letr);
 _putchar('\n');
 }
 }
-}
+
