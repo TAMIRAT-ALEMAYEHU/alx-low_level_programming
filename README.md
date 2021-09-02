@@ -1,1 +1,1 @@
-#This is my first directory for c project read me file
+#This is my third directory for c project read me file
