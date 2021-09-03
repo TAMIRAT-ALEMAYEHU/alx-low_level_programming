@@ -9,5 +9,6 @@ int i;
 i = 98;
 if (i < 0)
 positive_or_negative(i);
+else
 return (0);
 }
