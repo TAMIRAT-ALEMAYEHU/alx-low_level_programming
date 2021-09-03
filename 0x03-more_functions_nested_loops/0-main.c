@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * main - check the code the charactor
  *
- * Retrun: a charactor 
+ * Retrun: a charactor
  * Description - displays the charactor
  */
 int main(void)
