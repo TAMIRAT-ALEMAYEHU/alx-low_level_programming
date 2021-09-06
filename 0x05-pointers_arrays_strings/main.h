@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7fe83469cca7ed3b668aa0ecc2e605e467f17ba
 #include <stdlib.h>
 
 int _putchar(char c);
