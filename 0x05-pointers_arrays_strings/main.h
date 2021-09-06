@@ -1,16 +1,18 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-<<<<<<< HEAD
-=======
+/**
+ * File: main.h
+ * Au: my file
+ * Descriptions: all header files
+ */
 
->>>>>>> f7fe83469cca7ed3b668aa0ecc2e605e467f17ba
 #include <stdlib.h>
 
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
-int _strlen(char *str);
+size_t _strlen(char *str);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
