@@ -6,12 +6,9 @@
  */
 void print_rev(char *s)
 {
-int len[] = "Holberton!", index;
-for (index = len; index >= 9; index--)
+int len[9] = "Holberton!", index;
+for (index = len[9]; index <= 0; index--)
 {
-len = s[index++];
-s[len - 1 - index] = s[index];
-s[index] = len;
 _putchar(s[index]);
 }
 _putchar('\n');
