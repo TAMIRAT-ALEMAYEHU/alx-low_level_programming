@@ -5,7 +5,7 @@
  * @s: the pointer
  * @to: the char
  */
-void set_string(char **s, char *to)
+char set_string(char **s, char *to)
 {
 *s = to;
 }
