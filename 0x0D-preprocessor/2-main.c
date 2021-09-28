@@ -2,16 +2,14 @@
 
 /**
  * main - prints the name of the file of the
- *        program was compiled.
+ *        program was compiled from followed
+ *        by a new line.
  *
- * Description: the program that prints
- *                 the name of the file compiled
- *
- * Return : always 0
+ * Return: always 0
  */
 
 int main(void)
 {
-printf("%\n", __FILE__);
+printf("%s\n", __FILE__);
 return (0);
 }
